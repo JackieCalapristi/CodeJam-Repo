@@ -1,6 +1,7 @@
 # CodeJam-Repo
 Repo for CodeJam Demo
 #####STUFF IS FLIPPTity DIPPITY FIXED
+# Check that Git is installed and configure github credentials
 ```git
 git --version
 git config --global user.email
@@ -9,8 +10,21 @@ git config --global user.name
 # Steps
 1) Fork
 2) Clone
+```git
+git clone <Master Repository URL>
+3) Add Remote Upstream & Origin
+```git
+git remote add upstream <Master Repository URL>
+git remote add origin <Forked URL>
+4) Create a New Branch
+```git
+git checkout -b <Branch Name>
 3) Commit
+```git
+git commit -m "<Commit Message>"
 4) Push
+```git
+git push --set-upstream origin <Branch Name>
 5) Pull Request
 6) Pull and Repeat
 
@@ -30,12 +44,12 @@ git config --global user.name
 
 * Github Explore - www.Github.com/explore
 * Open Hatch - www.OpenHatch.org/search
-* Code Triage - www.CodeTriage.com 
-* Issue Hub - www.IssueHub.io 
-* First Timers Only - www.FirstTimersOnly.com 
-* Up For Grabs - www.up-for-grabs.net 
-* Your First PR- www.twitter.com/yourfirstpr 
-* Pull Request Roulette - www.PullRequestRoulette.com  
+* Code Triage - www.CodeTriage.com
+* Issue Hub - www.IssueHub.io
+* First Timers Only - www.FirstTimersOnly.com
+* Up For Grabs - www.up-for-grabs.net
+* Your First PR- www.twitter.com/yourfirstpr
+* Pull Request Roulette - www.PullRequestRoulette.com
 
 
 # Tags for Noobs
@@ -59,4 +73,5 @@ git rerere
 git --version
 git config --global user.email
 git config --global user.name
+
 
