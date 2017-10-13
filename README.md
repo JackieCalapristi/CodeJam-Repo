@@ -5,3 +5,5 @@ Repo for CodeJam Demo
 git --version
 git config --global user.email
 git config --global user.name
+
+// hello world
