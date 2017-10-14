@@ -1,32 +1,28 @@
 # CodeJam-Repo
 Repo for CodeJam Demo
 #####STUFF IS FLIPPTity DIPPITY FIXED
+![alt text](https://tenor.com/view/gurl-owl-head-gif-5509455 "Owl Gurl")
 # Check that Git is installed and configure github credentials
 ```git
 git --version
 git config --global user.email
 git config --global user.name
-![alt text](https://tenor.com/view/gurl-owl-head-gif-5509455 "Owl Gurl")
+```
 # Steps
-1) Fork
-2) Clone
-```git
-git clone <Master Repository URL>
-3) Add Remote Upstream & Origin
-```git
-git remote add upstream <Master Repository URL>
-git remote add origin <Forked URL>
-4) Create a New Branch
-```git
-git checkout -b <Branch Name>
-3) Commit
-```git
-git commit -m "<Commit Message>"
-4) Push
-```git
-git push --set-upstream origin <Branch Name>
-5) Pull Request
-6) Pull and Repeat
+>1) Fork
+>2) Clone
+`git clone <Master Repository URL>`
+>3) Add Remote Upstream & Origin
+`git remote add upstream <Master Repository URL>`
+`git remote add origin <Forked URL>`
+>4) Create a New Branch
+`git checkout -b <Branch Name>`
+>5) Commit
+`git commit -m "<Commit Message>"`
+>6) Push
+`git push --set-upstream origin <Branch Name>`
+>7) Pull Request
+>8) Pull and Repeat
 
 # Why contribute to open source?
 
@@ -68,10 +64,3 @@ git show
 git diff
 git cherry-pick
 git rerere
-
-```git
-git --version
-git config --global user.email
-git config --global user.name
-
-
